@@ -1,0 +1,10 @@
+python3 -m venv env //crear el directorio del entorno virual
+call env/Scripts/activate ---> activar el entorno virtual
+pip install -r requirements.txt  --> instalar los requerimientos del proyecto
+flask --app application.py --debug run ----> activa flask
+pip list -- listar paquetes instalados
+python .\src\app.py
+endpoint direccion a la que se realizan las llamadas para interactuar con la api
+
+debuger sirve para mostrar en el navegador los errores y poder guardar cambios y visualizarlos
+Pagina web dinamica cambia segun el usuario y tiene una logica
